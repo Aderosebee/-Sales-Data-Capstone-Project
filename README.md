@@ -7,3 +7,8 @@
 
 ### Data Source:
 #### The main data sources for this analysis are the "Data Sales.csv" and "Customer.csv" files, which are open-source datasets available for free download from online repositories like Kaggle, FRED, or other similar platforms.
+
+### Tools Used
+- Excel: Employed for data cleaning and visualization.
+- SQL: Utilized for data cleaning through queries.
+- Power BI: Used for both data cleaning and visualization.
