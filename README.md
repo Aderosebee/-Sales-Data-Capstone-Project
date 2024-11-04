@@ -59,11 +59,19 @@ Columns: 7 Columns
 
 #### SQL Data Analysis
 This is where we include some basic lines of code or queries or even some of the DAX expressions used during your analysis;
+---
+- Show the table
+```select * from [dbo].[SalesData]
+```
+![Selceting tables](https://github.com/user-attachments/assets/503e8400-ec5e-4b66-ba9c-12fc4f8745fb)
+
 - Total Sales for each product category
 ```SELECT Product, 
 SUM(Revenue) AS TotalSales
 FROM [dbo].[SalesData]
 GROUP By Product;
 ```
+![Total sales by product category](https://github.com/user-attachments/assets/27554940-6646-4819-8fb1-621dd0ff6729)
+
 
 
