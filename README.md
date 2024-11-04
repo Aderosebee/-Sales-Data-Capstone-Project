@@ -12,3 +12,10 @@ The main data sources for this analysis are the "Data Sales.csv" and "Customer.c
 - Excel: Employed for data cleaning and visualization.
 - SQL: Utilized for data cleaning through queries.
 - Power BI: Used for both data cleaning and visualization.
+
+### Data Cleaning and Preparation
+In the intial phase of Data Cleaning and Preparations, we perform the following action;
+
+- Data loading and Inspection
+- Handling missing variables
+- Data Cleaning and Formatting
