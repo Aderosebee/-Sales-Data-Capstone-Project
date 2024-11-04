@@ -31,9 +31,8 @@ In the intial phase of Data Cleaning and Preparations, we perform the following 
 - Handling missing variables
 - Data Cleaning and Formatting
 
-### Explorative Data Analysis
-EDA involved the exploratory of the Data to answer some questions about the data such as;
-
+### Objectives
+---
 1. Retrieve the total sales for each product category.
 2. Find the number of sales transactions in each region.
 3. Find the highest-selling product by total sales value.
