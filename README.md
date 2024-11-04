@@ -47,5 +47,11 @@ EDA are set of steps used to explore and understand the dataset better, before c
 Rows: 50000
 Columns: 7 Columns
 
+#### On Excel 
+- Calculate using pivot table:
+-  The total sales by region
+-  Total sales
+-  Average of  sales
+-  Total sales per product
 
 
