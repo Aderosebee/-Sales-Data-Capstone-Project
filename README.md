@@ -33,8 +33,6 @@ In the intial phase of Data Cleaning and Preparations, we perform the following 
 ### Explorative Data Analysis
 EDA involved the exploratory of the Data to answer some questions about the data such as;
 
-### For Sales Data
-
 1. Retrieve the total sales for each product category.
 2. Find the number of sales transactions in each region.
 3. Find the highest-selling product by total sales value.
@@ -43,5 +41,11 @@ EDA involved the exploratory of the Data to answer some questions about the data
 6. Find the top 5 customers by total purchase amount.
 7. Calculate the percentage of total sales contributed by each region.
 8. Identify products with no sales in the last quarter.
+
+###  EDA (Exploratory Data Analysis) 
+EDA are set of steps used to explore and understand the dataset better, before cleaning and transformation.
+Rows: 50000
+Columns: 7 Columns
+
 
 
