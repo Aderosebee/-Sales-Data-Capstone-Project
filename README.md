@@ -54,5 +54,6 @@ Columns: 7 Columns
 -  Total sales
 -  Average of  sales
 -  Total sales per product
+  
 
 
