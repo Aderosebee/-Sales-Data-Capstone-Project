@@ -6,25 +6,25 @@
 
 [Measures](#measures)
 
-[Data Source](data-source)
+[Data Source](#data-source)
 
-[Tools Used](tools-used)
+[Tools Used](#tools-used)
 
-[Data Cleaning and Preparation](data-cleaning-and-preparation)
+[Data Cleaning and Preparation](#data-cleaning-and-preparation)
 
-[Objectives](objectives)
+[Objectives](#objectives)
 
-[Exploratory Data Analysis](exploratory-data-analysis)
+[Exploratory Data Analysis](#exploratory-data-analysis)
 
-[On Excel](on-excel) 
+[On Excel](#on-excel) 
 
-[SQL Data Analysis](sql-data-analysis)
+[SQL Data Analysis](#sql-data-analysis)
 
-[Data Visualization](data-visualization)
+[Data Visualization](#data-visualization)
 
-[Conclusion](conclusion)
+[Conclusion](#conclusion)
 
-[Recommendation](recommendation)
+[Recommendation](#recommendation)
 
 ### Project Overview For Sales Data
 This project focuses on analyzing sales data to provide insights into customer purchasing behavior, product performance, and regional sales distribution. The data includes key variables such as OrderID, Customer, Product, Region, OrderDate, Quantity, UnitPrice, and Revenue. The goal of this analysis is to identify patterns and trends in customer orders, assess the performance of different products across various regions, and examine factors that contribute to revenue generation. This analysis can help the company make data-driven decisions to optimize sales and maximize revenue.
