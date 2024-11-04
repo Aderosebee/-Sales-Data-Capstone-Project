@@ -1,5 +1,5 @@
 # Capstone Project
-------
+---
 ## Project Title: Sales Data
 
 ### Project Overview For Sales Data
@@ -24,6 +24,7 @@ The main data sources for this analysis are the "Data Sales.csv" and "Customer.c
 - Power BI: Used for both data cleaning and visualization.
 
 ### Data Cleaning and Preparation
+---
 In the intial phase of Data Cleaning and Preparations, we perform the following action;
 
 - Data loading and Inspection
@@ -43,6 +44,7 @@ EDA involved the exploratory of the Data to answer some questions about the data
 8. Identify products with no sales in the last quarter.
 
 ###  EDA (Exploratory Data Analysis) 
+---
 EDA are set of steps used to explore and understand the dataset better, before cleaning and transformation.
 Rows: 50000
 Columns: 7 Columns
