@@ -73,5 +73,51 @@ GROUP By Product;
 ```
 ![Total sales by product category](https://github.com/user-attachments/assets/27554940-6646-4819-8fb1-621dd0ff6729)
 
+- Number of transaction by region
+```Select Region, count(*) as NumberOfTransactions
+From [dbo].[SalesData]
+Group by Region;
+```
+![Number of transactions per Region](https://github.com/user-attachments/assets/147abe2b-0fca-4d03-aeb3-5c0d0b1e35af)
+
+- Top Performing Product
+```select top 1 product, sum(quantity*unitprice) as totalsales
+From [dbo]. [SalesData]
+Group by product
+Order by totalsales desc;
+```
+![Top performing product](https://github.com/user-attachments/assets/25a07345-0979-4767-ba19-4a6cf1396bc9)
+
+- Monthly Sales Total
+```Select month(OrderDate) as month, sum(quantity*unitprice) as MonthlySales
+From [dbo].[SalesData]
+Where year(OrderDate) = year(GetDate())
+Group by month(OrderDate)
+Order by month;
+```
+![Monthly sales](https://github.com/user-attachments/assets/ee7e0915-c0a2-4660-8380-ff1f46f76b01)
+
+- Top Performing Customers
+```Select top 5 customer_id, sum(quantity*unitprice) as totalpurchaseAmount
+From [dbo].[SalesData]
+Group by customer_id
+Order by TotalPurchaseAmount desc;
+```
+![Top performing customers](https://github.com/user-attachments/assets/4d9768e4-346c-45cd-b826-a3dfaacb680d)
+
+- Products with no sales
+```Select distinct product
+From [dbo].[SalesData]
+Where product Not In(
+Select product
+From [dbo].[SalesData]
+Where OrderDate >= DateAdd(quarter, -1, GetDate()) and OrderDate < GetDate());
+```
+![Product with no sales](https://github.com/user-attachments/assets/49bb0fde-df88-4143-a210-6666404e7ac7)
+
+### Data Visualization
+---
+#### Powerbi
+
 
 
