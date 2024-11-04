@@ -118,8 +118,10 @@ Where OrderDate >= DateAdd(quarter, -1, GetDate()) and OrderDate < GetDate());
 ### Data Visualization
 ---
 #### Powerbi
-#### Conclusion
-#### Recommendation
+
+### Conclusion
+
+### Recommendation
 
 
 
