@@ -57,4 +57,13 @@ Columns: 7 Columns
   
 ![Sales Excel Pivot](https://github.com/user-attachments/assets/6fe22cd4-24e1-465b-8bf7-30bcdeacb711)
 
+#### SQL Data Analysis
+This is where we include some basic lines of code or queries or even some of the DAX expressions used during your analysis;
+- Total Sales for each product category
+```SELECT Product, 
+SUM(Revenue) AS TotalSales
+FROM [dbo].[SalesData]
+GROUP By Product;
+```
+
 
