@@ -2,9 +2,9 @@
 ---
 ## Project Title: Sales Data
 ---
-[Project Overview For Sales Data](project-overview-for-sales-data)
+[Project Overview For Sales Data](#project-overview-for-sales-data)
 
-[Measures](measures)
+[Measures](#measures)
 
 [Data Source](data-source)
 
