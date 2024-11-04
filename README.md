@@ -1,18 +1,19 @@
 # Capstone Project
 ---
 ## Project Title: Sales Data
+---
 [Project Overview For Sales Data](project-overview-for-sales-data)
-Measures
-Data Source
-Tools Used
-Data Cleaning and Preparation
-Objectives
-EDA (Exploratory Data Analysis) 
-On Excel 
-SQL Data Analysis
-Data Visualization
-Conclusion
-Recommendation
+[Measures](measures)
+[Data Source](data-source)
+[Tools Used](tools-used)
+[Data Cleaning and Preparation](data-cleaning-and-preparation)
+[Objectives](objectives)
+[Exploratory Data Analysis](exploratory-data-analysis)
+[On Excel](on-excel) 
+[SQL Data Analysis](sql-data-analysis)
+[Data Visualization](data-visualization)
+[Conclusion](conclusion)
+[Recommendation](conclusion)
 
 ### Project Overview For Sales Data
 This project focuses on analyzing sales data to provide insights into customer purchasing behavior, product performance, and regional sales distribution. The data includes key variables such as OrderID, Customer, Product, Region, OrderDate, Quantity, UnitPrice, and Revenue. The goal of this analysis is to identify patterns and trends in customer orders, assess the performance of different products across various regions, and examine factors that contribute to revenue generation. This analysis can help the company make data-driven decisions to optimize sales and maximize revenue.
@@ -54,7 +55,7 @@ In the intial phase of Data Cleaning and Preparations, we perform the following 
 7. Calculate the percentage of total sales contributed by each region.
 8. Identify products with no sales in the last quarter.
 
-###  EDA (Exploratory Data Analysis) 
+###  Exploratory Data Analysis
 ---
 EDA are set of steps used to explore and understand the dataset better, before cleaning and transformation.
 Rows: 50000
