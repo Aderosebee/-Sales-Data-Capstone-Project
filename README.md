@@ -55,5 +55,6 @@ Columns: 7 Columns
 -  Average of  sales
 -  Total sales per product
   
+![Sales Excel Pivot](https://github.com/user-attachments/assets/6fe22cd4-24e1-465b-8bf7-30bcdeacb711)
 
 
