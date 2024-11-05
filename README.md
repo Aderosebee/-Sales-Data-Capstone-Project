@@ -140,15 +140,38 @@ Where OrderDate >= DateAdd(quarter, -1, GetDate()) and OrderDate < GetDate());
 ![Product with no sales](https://github.com/user-attachments/assets/49bb0fde-df88-4143-a210-6666404e7ac7)
 
 ### Dashboard Overview
+![Dashboard Overview 2](https://github.com/user-attachments/assets/ba6f4276-597e-414a-ace9-d68aa548c901)
 
 
-### Data Visualization
+
+
+### Data Analysis and Insights Generation
+1. Top Performing Product: To gain a deeper understanding on the products with highest revenue and highest quantity sold.
+![Top Performing Products based on quantity and revenue](https://github.com/user-attachments/assets/5c1431d7-ea49-4413-8061-fc3054c2716f)
+
+Insights:
+- Shoes generated the highest revenue at $0.61M despite the fact that only 14000 shoes were sold, indicating that this product is the most popular followed by shirts at $0.49M with a quantity of 12000 and hats at $0.32M with quantity of 16000. Gloves and jackets generated the lowest revenue at $0.30M and $0.21M respectively.
+- This suggests that shoes and shirts are possibly appealing to similar customer.
+
+2. Sales Trend by Month and Region: To gain understading about the seasonal trends of the products sales as the month progresses and accepted regionwise.
+![Sales Trend](https://github.com/user-attachments/assets/81aaf0d9-31b0-44af-af6b-09ebde01d9f7)
+- 
+
 ---
-#### Powerbi
 
 ### Conclusion
+---
+From the analysis of the sales data, we observed that certain regions and products contributed significantly to the overall revenue. Products with higher quantities sold, or those priced strategically, demonstrated strong sales performance. Customer purchasing behavior varied across regions, with certain customers consistently making larger purchases, which influenced the revenue. Additionally, we noticed fluctuations in sales over different periods, which could indicate seasonal or promotional effects on purchasing patterns.
 
 ### Recommendation
+---
+To enhance revenue and optimize sales performance, we recommend the following actions:
+
+- Targeted Marketing: Focus marketing efforts on regions and customers that show high purchasing behavior. Tailored promotions in these areas could boost revenue.
+- Product Optimization: Analyze underperforming products and consider adjusting pricing or bundling with high-performing items.
+- Seasonal Promotions: Capitalize on the sales patterns by planning promotions during peak periods to increase order volume and revenue.
+- Customer Loyalty Programs: Implement loyalty programs for repeat customers to encourage larger and more frequent purchases, especially in regions with consistent buying patterns.
+- Continuous Monitoring: Regularly monitor sales data to identify new trends and adjust strategies as necessary to stay aligned with customer preferences.
 
 
 
