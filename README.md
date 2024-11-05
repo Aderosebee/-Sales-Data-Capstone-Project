@@ -22,7 +22,7 @@
 
 [Dashboard Overview](#dashboard-overview)
 
-[Data Analysis and Insights Generation](data-analysis-and-insights-generation)
+[Data Analysis and Insights Generation](#data-analysis-and-insights-generation)
 
 [Conclusion](#conclusion)
 
