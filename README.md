@@ -20,7 +20,9 @@
 
 [SQL Data Analysis](#sql-data-analysis)
 
-[Data Visualization](#data-visualization)
+[Dashboard Overview](#dashboard-overview)
+
+[Data Analysis and Insights Generation](data-analysis-and-insights-generation)
 
 [Conclusion](#conclusion)
 
@@ -78,8 +80,8 @@ Columns: 7 Columns
 -  Total sales
 -  Average of  sales
 -  Total sales per product
-  
-![Sales Excel Pivot](https://github.com/user-attachments/assets/6fe22cd4-24e1-465b-8bf7-30bcdeacb711)
+![New Excel](https://github.com/user-attachments/assets/8d0def3d-51ca-4204-9e91-a83d2d9c9297)
+
 
 #### SQL Data Analysis
 This is where we include some basic lines of code or queries or even some of the DAX expressions used during your analysis;
@@ -155,13 +157,17 @@ Insights:
 
 2. Sales Trend by Month and Region: To gain understading about the seasonal trends of the products sales as the month progresses and accepted regionwise.
 ![Sales Trend](https://github.com/user-attachments/assets/81aaf0d9-31b0-44af-af6b-09ebde01d9f7)
-- 
+
+Insights:
+- There is an increase in total sales with $0.55M in the month of february in the southern region followed by $0.27M in the month of July in the eastern region followed by $0.25M in the month of January in the northern region followed by $.0.27M in the month of August in the western region.
+- This denotes that there is more concentration at the southern region which needs to be circulated to other regions.
+  
 
 ---
 
 ### Conclusion
 ---
-From the analysis of the sales data, we observed that certain regions and products contributed significantly to the overall revenue. Products with higher quantities sold, or those priced strategically, demonstrated strong sales performance. Customer purchasing behavior varied across regions, with certain customers consistently making larger purchases, which influenced the revenue. Additionally, we noticed fluctuations in sales over different periods, which could indicate seasonal or promotional effects on purchasing patterns.
+From the analysis of the sales data, we observed that certain regions like south and east; and products like shoes and shirts contributed significantly to the overall revenue. Products with higher quantities sold, or those priced strategically, demonstrated strong sales performance.  Additionally, we noticed fluctuations in sales over different periods, which could indicate seasonal or promotional effects on purchasing patterns.
 
 ### Recommendation
 ---
