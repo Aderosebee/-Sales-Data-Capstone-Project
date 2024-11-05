@@ -139,6 +139,9 @@ Where OrderDate >= DateAdd(quarter, -1, GetDate()) and OrderDate < GetDate());
 ```
 ![Product with no sales](https://github.com/user-attachments/assets/49bb0fde-df88-4143-a210-6666404e7ac7)
 
+### Dashboard Overview
+
+
 ### Data Visualization
 ---
 #### Powerbi
