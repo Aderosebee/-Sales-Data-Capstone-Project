@@ -51,11 +51,8 @@ The main data sources for this analysis are the "Data Sales.csv" and "Customer.c
 
 ### Data Cleaning and Preparation
 ---
-In the intial phase of Data Cleaning and Preparations, we perform the following action;
-
-- Data loading and Inspection
-- Handling missing variables
-- Data Cleaning and Formatting
+Removing duplicates and eliminated duplicated records to ensure Data Quality
+Adding New Columns, Added new columns sales and revenue by multipling the quantity of the product purchased by the respective unit price, added an average column for the sales/revenue of products purchased and also added a calculated column for the Marginal profit made in the company over the space of a year and eight months.
 
 ### Objectives
 ---
@@ -71,7 +68,7 @@ In the intial phase of Data Cleaning and Preparations, we perform the following 
 ###  Exploratory Data Analysis
 ---
 EDA are set of steps used to explore and understand the dataset better, before cleaning and transformation.
-Rows: 50000
+Rows:9921
 Columns: 7 Columns
 
 #### On Excel 
