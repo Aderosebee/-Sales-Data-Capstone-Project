@@ -142,14 +142,17 @@ From [dbo].[SalesData]
 Where OrderDate >= DateAdd(quarter, -1, GetDate()) and OrderDate < GetDate());
 ```
 ![Distinct prod](https://github.com/user-attachments/assets/2cdd8f05-dbc1-4a43-93ea-4f363c46863a)
+---
 
 ### Dashboard Overview
+---
 ![Dashboard Overview 2](https://github.com/user-attachments/assets/ba6f4276-597e-414a-ace9-d68aa548c901)
 
 
 
 
 ### Data Analysis and Insights Generation
+---
 1. Top Performing Product: To gain a deeper understanding on the products with highest revenue and highest quantity sold.
 
 ![Top Performing Products based on quantity and revenue](https://github.com/user-attachments/assets/5c1431d7-ea49-4413-8061-fc3054c2716f)
@@ -171,7 +174,8 @@ Insights:
 ![Total sales by r](https://github.com/user-attachments/assets/e790d360-d765-41b7-9269-b46727612668)
 
 Insights:
-- 
+- There is a huge gap between the South revenue generated at $0.93M compared to other regions. Followed by east at $0.49M and north and west at $0.39M and $0.30M respectively. This showed that the south outperformed the other regions which could be due to many factors including the stores not having what the customers need in relation with the environment.
+  
 ---
 
 ### Conclusion
