@@ -1,6 +1,6 @@
 # Capstone Project 1
 ---
-## Project Title: Sales Data
+## Project Title: ABX Sales Data
 ---
 [Project Overview For Sales Data](#project-overview-for-sales-data)
 
