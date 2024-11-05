@@ -89,7 +89,8 @@ This is where we include some basic lines of code or queries or even some of the
 - Show the table
 ```select * from [dbo].[SalesData]
 ```
-![Selceting tables](https://github.com/user-attachments/assets/503e8400-ec5e-4b66-ba9c-12fc4f8745fb)
+![Selecting table1](https://github.com/user-attachments/assets/fc41c3b9-532b-4ef6-b462-2304cd0f4ced)
+
 
 - Total Sales for each product category
 ```SELECT Product, 
@@ -97,14 +98,15 @@ SUM(Revenue) AS TotalSales
 FROM [dbo].[SalesData]
 GROUP By Product;
 ```
-![Total sales by product category](https://github.com/user-attachments/assets/27554940-6646-4819-8fb1-621dd0ff6729)
+![Total Sales by pc](https://github.com/user-attachments/assets/3a27139d-30dd-4655-952e-ac85b399933d)
+
 
 - Number of transaction by region
 ```Select Region, count(*) as NumberOfTransactions
 From [dbo].[SalesData]
 Group by Region;
 ```
-![Number of transactions per Region](https://github.com/user-attachments/assets/147abe2b-0fca-4d03-aeb3-5c0d0b1e35af)
+![Region by transact](https://github.com/user-attachments/assets/024c2991-d084-409c-9935-91f4b1a65869)
 
 - Top Performing Product
 ```select top 1 product, sum(quantity*unitprice) as totalsales
@@ -112,7 +114,7 @@ From [dbo]. [SalesData]
 Group by product
 Order by totalsales desc;
 ```
-![Top performing product](https://github.com/user-attachments/assets/25a07345-0979-4767-ba19-4a6cf1396bc9)
+![Top 1 product](https://github.com/user-attachments/assets/f06b2152-4cb6-40f9-985f-9c4bd0b7aa2d)
 
 - Monthly Sales Total
 ```Select month(OrderDate) as month, sum(quantity*unitprice) as MonthlySales
@@ -121,7 +123,7 @@ Where year(OrderDate) = year(GetDate())
 Group by month(OrderDate)
 Order by month;
 ```
-![Monthly sales](https://github.com/user-attachments/assets/ee7e0915-c0a2-4660-8380-ff1f46f76b01)
+![Order Date](https://github.com/user-attachments/assets/2987064e-ecbc-4c51-ba88-021c08134900)
 
 - Top Performing Customers
 ```Select top 5 customer_id, sum(quantity*unitprice) as totalpurchaseAmount
@@ -129,7 +131,7 @@ From [dbo].[SalesData]
 Group by customer_id
 Order by TotalPurchaseAmount desc;
 ```
-![Top performing customers](https://github.com/user-attachments/assets/4d9768e4-346c-45cd-b826-a3dfaacb680d)
+![Top customer](https://github.com/user-attachments/assets/c6177abe-cc31-4e54-acbe-ae3ebb0ccd56)
 
 - Products with no sales
 ```Select distinct product
@@ -139,7 +141,7 @@ Select product
 From [dbo].[SalesData]
 Where OrderDate >= DateAdd(quarter, -1, GetDate()) and OrderDate < GetDate());
 ```
-![Product with no sales](https://github.com/user-attachments/assets/49bb0fde-df88-4143-a210-6666404e7ac7)
+![Distinct prod](https://github.com/user-attachments/assets/2cdd8f05-dbc1-4a43-93ea-4f363c46863a)
 
 ### Dashboard Overview
 ![Dashboard Overview 2](https://github.com/user-attachments/assets/ba6f4276-597e-414a-ace9-d68aa548c901)
@@ -149,6 +151,7 @@ Where OrderDate >= DateAdd(quarter, -1, GetDate()) and OrderDate < GetDate());
 
 ### Data Analysis and Insights Generation
 1. Top Performing Product: To gain a deeper understanding on the products with highest revenue and highest quantity sold.
+
 ![Top Performing Products based on quantity and revenue](https://github.com/user-attachments/assets/5c1431d7-ea49-4413-8061-fc3054c2716f)
 
 Insights:
@@ -156,13 +159,19 @@ Insights:
 - This suggests that shoes and shirts are possibly appealing to similar customer.
 
 2. Sales Trend by Month and Region: To gain understading about the seasonal trends of the products sales as the month progresses and accepted regionwise.
+
 ![Sales Trend](https://github.com/user-attachments/assets/81aaf0d9-31b0-44af-af6b-09ebde01d9f7)
 
 Insights:
 - There is an increase in total sales with $0.55M in the month of february in the southern region followed by $0.27M in the month of July in the eastern region followed by $0.25M in the month of January in the northern region followed by $.0.27M in the month of August in the western region.
 - This denotes that there is more concentration at the southern region which needs to be circulated to other regions.
-  
 
+3. Product Sales by Region: To gain indepth knowledge about revenue generated in each region.
+
+![Total sales by r](https://github.com/user-attachments/assets/e790d360-d765-41b7-9269-b46727612668)
+
+Insights:
+- 
 ---
 
 ### Conclusion
